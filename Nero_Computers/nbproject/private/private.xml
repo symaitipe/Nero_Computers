@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/controller/ProductFilterServlet.java</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/controller/UserLoginServlet.java</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/web/WEB-INF/web.xml</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/dto/User.java</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/web/JSPS/error.jsp</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/connection/DBConnection.java</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/web/JSPS/viewBrandProducts.jsp</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/web/JSPS/userLogin.jsp</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/web/JSPS/login.jsp</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/web/JSPS/navbar.jsp</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/dto/Product.java</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/dao/ProductDAO.java</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/dto/Brand.java</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/dao/BrandDAO.java</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/web/JSPS/viewAll.jsp</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/controller/ViewBrandProductServlet.java</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/web/JSPS/brandSelection.jsp</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/web/index.html</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/controller/ViewAllProductsServlet.java</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/controller/SelectBrandPageServlet.java</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/dao/UserDAO.java</file>
+        </group>
+    </open-files>
+</project-private>
