@@ -30,14 +30,17 @@ public class UserLoginServlet extends HttpServlet {
                 HttpSession session = request.getSession();
                 session.setAttribute("userID", user.getUserID());
                 session.setAttribute("username", user.getUsername());
-                response.sendRedirect("JSPS/error.jsp");
+                response.sendRedirect("JSPS/userLoginSuccess.jsp");
             } else {
-                response.sendRedirect("index.html");
+                response.sendRedirect("JSPS/login.jsp");
             }
 
         } catch (ClassNotFoundException | SQLException ex) {
             ex.printStackTrace();
         }
     }
+    
+    
+    
 
 }

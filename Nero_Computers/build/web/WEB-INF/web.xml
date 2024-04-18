@@ -52,6 +52,15 @@
         <url-pattern>/UserLoginServlet</url-pattern>
     </servlet-mapping>
     
+    //user Logout Servlet
+    <servlet>
+        <servlet-name>userLogoutServlet</servlet-name>
+        <servlet-class>controller.userLogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>userLogoutServlet</servlet-name>
+        <url-pattern>/userLogoutServlet</url-pattern>
+    </servlet-mapping>
     
     <session-config>
         <session-timeout>

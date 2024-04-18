@@ -13,14 +13,17 @@
             <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/web/JSPS/userLogin.jsp</file>
             <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/web/JSPS/login.jsp</file>
             <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/web/JSPS/navbar.jsp</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/web/JSPS/userLoginSuccess.jsp</file>
             <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/dto/Product.java</file>
             <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/dao/ProductDAO.java</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/controller/userLogoutServlet.java</file>
             <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/dto/Brand.java</file>
             <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/dao/BrandDAO.java</file>
             <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/web/JSPS/viewAll.jsp</file>
             <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/controller/ViewBrandProductServlet.java</file>
             <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/web/JSPS/brandSelection.jsp</file>
             <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/web/index.html</file>
+            <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/web/JSPS/confirmUserLogout.jsp</file>
             <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/controller/ViewAllProductsServlet.java</file>
             <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/controller/SelectBrandPageServlet.java</file>
             <file>file:/D:/Nero_Computers/Nero_Computers/Nero_Computers/src/java/dao/UserDAO.java</file>

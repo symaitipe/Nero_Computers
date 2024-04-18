@@ -1,4 +1,4 @@
-package dao;
+ package dao;
 
 import connection.DBConnection;
 import dto.Brand;

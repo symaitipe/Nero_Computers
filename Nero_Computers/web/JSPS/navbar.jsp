@@ -34,11 +34,7 @@
                         <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
                     </li>
                     <li class="nav-item">
-                        <!-- Form to submit cookies to ClearCookies servlet -->
-                        <form action="JSPS/clearCookies.jsp" method="POST">
-                            <input type="hidden" name="logout" value="true">
-                            <button type="submit" class="nav-link btn btn-link"><i class="fas fa-sign-out-alt"></i> Logout</button>
-                        </form>
+                        <a class="nav-link" href="/Nero_Computers/JSPS/confirmUserLogout.jsp"><i class="fas fa-sign-out-alt"></i> Logout</a>
                     </li>
                     <li class="nav-item">
                         <form action="/Nero_Computers/ProductFilterServlet" method="GET" class="form-inline">
