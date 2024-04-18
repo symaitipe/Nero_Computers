@@ -13,7 +13,7 @@
     </head>
     <body>
         <jsp:include page="navbar.jsp" />
-        
+
         <div class="container mt-5">
             <h2 class="text-center">User Login</h2>
             <div class="row justify-content-center">
@@ -42,5 +42,38 @@
                 </div>
             </div>
         </div>
+
+        <!-- alert modal -->
+        <div class="modal fade" id="alertModal" tabindex="-1" role="dialog" aria-labelledby="alertModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="alertModalLabel">Alert</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p id="alertMessage">Please enter both username and password.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function validateForm() {
+                var username = document.getElementById("username").value;
+                var password = document.getElementById("password").value;
+
+                if (username === "" || password === "") {
+                    $('#alertModal').modal('show');
+                    return false;
+                }
+                return true;
+            }
+        </script>    
     </body>
 </html>
