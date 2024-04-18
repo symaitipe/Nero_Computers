@@ -61,3 +61,21 @@ CREATE TABLE OrderDetails (
     FOREIGN KEY (OrderID) REFERENCES Orders(OrderID),
     FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
 );
+
+CREATE TABLE BrandCategoryMap (
+    BrandCategoryID INT AUTO_INCREMENT PRIMARY KEY,
+    BrandID INT,
+    CategoryID INT,
+    FOREIGN KEY (BrandID) REFERENCES Brands(BrandID),
+    FOREIGN KEY (CategoryID) REFERENCES Categories(CategoryID)
+);
+
+INSERT INTO BrandCategoryMap (BrandID, CategoryID) VALUES
+    (1, 1),  -- Apple belongs to Laptops
+    (2, 2),  -- Samsung belongs to Smartphones
+    (3, 1),  -- HP belongs to Laptops
+    (4, 3),  -- Sony belongs to Tablets
+    (4, 4);  -- Sony also belongs to Accessories
+
+
+
