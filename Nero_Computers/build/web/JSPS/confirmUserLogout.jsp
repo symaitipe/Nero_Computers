@@ -27,7 +27,7 @@
                         You must log in first to perform this action.
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary cancelBtn"  data-dismiss="modal">Close</button>
                         <a href="/Nero_Computers/JSPS/login.jsp" class="btn btn-primary">Login</a>
                     </div>
                 </div>
@@ -39,15 +39,12 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="logoutConfirmationModalLabel">Confirm Logout</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
                     </div>
                     <div class="modal-body">
                         Are you sure you want to log out?
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-secondary cancelBtn"  data-dismiss="modal">Cancel</button>
                         <button type="button" class="btn btn-primary" id="confirmLogoutBtn">Logout</button>
                     </div>
                 </div>
@@ -72,6 +69,12 @@
                     form.submit();
                 });
             }
+
+            // Handler for cancel button click
+            $('.cancelBtn').click(function () {
+                window.history.back();
+            });
+
         </script>
 
 

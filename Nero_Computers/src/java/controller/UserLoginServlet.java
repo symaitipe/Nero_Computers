@@ -32,7 +32,7 @@ public class UserLoginServlet extends HttpServlet {
                 session.setAttribute("username", user.getUsername());
                 response.sendRedirect("JSPS/userLoginSuccess.jsp");
             } else {
-                response.sendRedirect("JSPS/login.jsp");
+                response.sendRedirect("JSPS/userLoginError.jsp");
             }
 
         } catch (ClassNotFoundException | SQLException ex) {
