@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    
+    //ProductFilter Servlet
+    <servlet>
+        <servlet-name>ProductFilterServlet</servlet-name>
+        <servlet-class>controller.ProductFilterServlet</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>ProductFilterServlet</servlet-name>
+        <url-pattern>/ProductFilterServlet</url-pattern>
+    </servlet-mapping>
+    
+    //ViewAllProducts Servlet
+    <servlet>
+        <servlet-name>ViewAllProductsServlet</servlet-name>
+        <servlet-class>controller.ViewAllProductsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewAllProductsServlet</servlet-name>
+        <url-pattern>/ViewAllProductsServlet</url-pattern>
+    </servlet-mapping>
+    
+    //SelectBrandPage Servlet
+    <servlet>
+        <servlet-name>SelectBrandPageServlet</servlet-name>
+        <servlet-class>controller.SelectBrandPageServlet</servlet-class>
+    </servlet> 
+    <servlet-mapping>
+        <servlet-name>SelectBrandPageServlet</servlet-name>
+        <url-pattern>/SelectBrandPageServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    //ViewBrandProduct Servlet
+    <servlet>
+        <servlet-name>ViewBrandProductServlet</servlet-name>
+        <servlet-class>controller.ViewBrandProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewBrandProductServlet</servlet-name>
+        <url-pattern>/ViewBrandProductServlet</url-pattern>
+    </servlet-mapping>
+    
+    //User Login Servlet
+    <servlet>
+        <servlet-name>UserLoginServlet</servlet-name>
+        <servlet-class>controller.UserLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserLoginServlet</servlet-name>
+        <url-pattern>/UserLoginServlet</url-pattern>
+    </servlet-mapping>
+    
+    //user Logout Servlet
+    <servlet>
+        <servlet-name>userLogoutServlet</servlet-name>
+        <servlet-class>controller.userLogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>userLogoutServlet</servlet-name>
+        <url-pattern>/userLogoutServlet</url-pattern>
+    </servlet-mapping>
+    
+    //create user servlet
+    <servlet>
+        <servlet-name>createUserServlet</servlet-name>
+        <servlet-class>controller.createUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>createUserServlet</servlet-name>
+        <url-pattern>/createUserServlet</url-pattern>
+    </servlet-mapping>
+
+    //Add to cart servlet    
+    <servlet>
+        <servlet-name>AddToCartServlet</servlet-name>
+        <servlet-class>controller.AddToCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddToCartServlet</servlet-name>
+        <url-pattern>/AddToCartServlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
