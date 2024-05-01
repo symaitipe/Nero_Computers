@@ -70,6 +70,18 @@ CREATE TABLE BrandCategoryMap (
     FOREIGN KEY (CategoryID) REFERENCES Categories(CategoryID)
 );
 
+INSERT INTO brands VALUES
+    (1,"Apple"),
+    (2, "Samsung"),
+    (3, "HP"),
+    (4, "Sony");
+
+INSERT INTO categories VALUES
+    (1,"Laptops"),
+    (2, "Smartphones"),
+    (3, "Tablets"),
+    (4, "Accessories");
+
 INSERT INTO BrandCategoryMap (BrandID, CategoryID) VALUES
     (1, 1),  -- Apple belongs to Laptops
     (2, 2),  -- Samsung belongs to Smartphones
