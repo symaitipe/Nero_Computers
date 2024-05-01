@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Add New Product</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:lightgray;
+  }
+
+  .add-product-form {
+    width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  .add-product-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .add-product-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .add-product-form input[type="text"],
+  .add-product-form input[type="url"],
+  .add-product-form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+
+  .add-product-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+
+  .add-product-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .add-product-form button:hover {
+    background-color: #3e8e41;
+  }
+</style>
+</head>
+<body>
+<div class="add-product-form">
+  <h2>Add New Product</h2>
+  <form action="/action_page.php">
+    <label for="Brand">Brand:</label>
+    <input type="text" id="brand" name="brand">
+
+    <label for="imageUrl">Image URL:</label>
+    <input type="url" id="imageUrl" name="imageUrl">
+
+    <label for="productDescription">Product Description:</label>
+    <textarea id="productDescription" name="productDescription" ></textarea>
+
+    <label for="price">Price:</label>
+    <input type="text" id="price" name="price" >
+
+    <label for="productCategory">Product Category:</label>
+    <select id="productCategory" name="productCategory">
+      <option value="acer">ACER</option>
+      <option value="ASUS">ASUS</option>
+      <option value="HP">HP</option>
+      <option value="LENOVO">LENOVO</option>
+      <option value="DELL">DELL</option>
+      <option value="APPLE">APPLE</option>
+      </select>
+
+    <button type="submit">Submit</button>
+    <button type="button" onclick="window.location.href='cancel.html'">Cancel</button>
+  </form>
+</div>
+</body>
+</html>
