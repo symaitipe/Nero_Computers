@@ -12,9 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Login</title>
     </head>
-    <body>
-       
-        
+    <body>       
         <jsp:include page="navbar.jsp" />
         <div class="container mt-5">
             <h2 class="text-center">Login</h2>
@@ -54,4 +52,6 @@
 
     </body>
 </html>
+
+
 
